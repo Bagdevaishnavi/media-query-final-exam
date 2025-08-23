@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: 'DM Sans 18pt';
+
+}
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 40px;
+}
+.d-none {
+    display: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+ul li {
+    list-style-type: none;
+}
+.d-flex {
+    display: flex;
+
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+}
+.col-12 {
+    width: 100%;
+}
+.col-4 {
+    width: 33.33%;
+}
+img {
+    width: 100%;
+}
+
+
+/* header section start  */
+header {
+    width: 100%;
+}
+header nav {
+    width: 100%;
+    height: 100px;
+}
+header nav .logo span {
+    font-size: 24px;
+    color: #0a0a0a;
+    font-weight: 800;
+}
+header nav .navbar-links a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 22px;
+    transition: all .3s ease-in-out;
+}
+header nav .navbar-links ul li:hover a {
+    color: #2887ff;
+}
+header nav .btn a {
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: #2887ff;
+    color: #fff;
+    border-radius: 80px;
+
+}
+header nav .btn:hover a {
+    background-color: #1a7df7;
+}
+/* header section end  */
+/* main section start  */
+/* hero section start  */
+.hero {
+    width: 100%;
+
+}
+.hero .hero-content {
+     margin-top: 100px;
+}
+.hero .hero-content p{
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-bottom: 5px;
+}
+.hero .hero-content h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 88px;
+    margin-bottom: 20px;
+}
+.hero .hero-btn span a {
+     font-size: 16px;
+    padding: 12px 24px;
+    background-color: #2887ff;
+    color: #fff;
+    border-radius: 80px;
+}
+
+.hero .hero-background {
+    background: url(../img/background6.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+/* hero section end  */
+/* destination section start  */
+.Destination {
+    padding: 100px 0;
+}
+.Destination .destination-heading h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.Destination .destination-heading p {
+    font-size: 16px;
+    color: #737377;
+    margin-bottom: 50px;
+}
+.Destination .destination-img .card {
+    width: 100%;
+    padding: 0 15px;
+}
+.Destination .destination-img .card .card-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.Destination .destination-img .card .card-img-heading span{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 800px;
+
+} 
+.Destination .destination-img .card .card-img-heading .card-btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #2887ff;
+    border-radius: 16px;
+    align-self: flex-end;
+}
+.Destination .destination-img .card .card-img-heading p {
+     font-size: 16px;
+    color: #737377;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* destination section end  */
+ /* about section start  */
+.about {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.about .card {
+    text-align: center;
+    width: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    border-radius: 20px;
+    background-color: #f3f4f6;
+    height: 200px;
+}
+.about .card .card-content h2 {
+    font-size: 80px;
+    color: #2887ff;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.about .card .card-content p{
+     font-size: 16px;
+    color: #737377;
+    padding-bottom: 20px;
+}
+
+
+ /* about section end  */
+/* main section end  */
+/* footer section start  */
+footer {
+    width: 100%;
+    background-color: #f3f4f6;
+    padding: 30PX 0;
+}
+footer .travellers {
+    padding: 20px 0;
+}
+footer .travellers .travellers-heading h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+footer .travellers p {
+   font-size: 16px;
+    color: #737377;
+    padding: 32px 0; 
+}
+footer .travellers .travellers-btn span {
+    padding: 8px 10px;
+    background-color: #2887ff;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+footer .Quick-Links ul li {
+   font-size: 16px;
+   padding: 10px 0;
+   margin-top: 5px;
+   color: #737377;
+}
+footer .contect ul li a{
+   font-size: 16px;
+   padding: 10px 0;
+   margin-top: 5px;
+   color: #737377;
+}
+footer .fotter-text {
+    font-size: 16px;
+   padding: 10px 0;
+   margin-top: 5px;
+   color: #737377; 
+}
+
+/* footer section end  */
+
+
+

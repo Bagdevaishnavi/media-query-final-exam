@@ -1,0 +1,43 @@
+ /* sm  */
+@media(min-width:576px){
+    .container {
+        max-width: 540px;
+    }
+}
+ /* sm  */
+@media(min-width:768px){
+    .container {
+        max-width: 720px;
+    }
+}
+ /* sm  */
+@media(min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+    .d-lg-none {
+        display: none;
+    }
+    .d-lg-flex {
+        display: flex;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    
+}
+ /* sm  */
+@media(min-width:1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+ /* sm  */
+@media(min-width:1400px){
+    .container {
+        max-width: 1320px;
+    }
+}
